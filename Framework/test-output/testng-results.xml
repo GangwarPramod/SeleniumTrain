@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="20" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-26T21:15:54 IST" name="Suite" finished-at="2021-04-26T21:15:54 IST" duration-ms="331">
+    <groups>
+      <group name="smoke">
+        <method signature="Basic4.HouseLoanAPI(java.lang.String)[pri:0, instance:testNg.Basic4@49dc7102]" name="HouseLoanAPI" class="testNg.Basic4"/>
+        <method signature="Basic4.carloanAPI()[pri:0, instance:testNg.Basic4@49dc7102]" name="carloanAPI" class="testNg.Basic4"/>
+        <method signature="Basic.newdemo()[pri:0, instance:testNg.Basic@73ee04c8]" name="newdemo" class="testNg.Basic"/>
+        <method signature="Basic2.demo3()[pri:0, instance:testNg.Basic2@61386958]" name="demo3" class="testNg.Basic2"/>
+        <method signature="Basic.newdemo()[pri:0, instance:testNg.Basic@34f5090e]" name="newdemo" class="testNg.Basic"/>
+        <method signature="Basic2.demo3()[pri:0, instance:testNg.Basic2@31e5415e]" name="demo3" class="testNg.Basic2"/>
+        <method signature="Basic4.HouseLoanAPI(java.lang.String)[pri:0, instance:testNg.Basic4@a2431d0]" name="HouseLoanAPI" class="testNg.Basic4"/>
+        <method signature="Basic4.carloanAPI()[pri:0, instance:testNg.Basic4@a2431d0]" name="carloanAPI" class="testNg.Basic4"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2021-04-26T21:15:54 IST" name="Test" finished-at="2021-04-26T21:15:54 IST" duration-ms="144">
+      <class name="testNg.Basic2">
+        <test-method is-config="true" signature="prerequiesit()[pri:0, instance:testNg.Basic2@61386958]" started-at="2021-04-26T21:15:54 IST" name="prerequiesit" finished-at="2021-04-26T21:15:54 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequiesit -->
+        <test-method signature="demo3()[pri:0, instance:testNg.Basic2@61386958]" started-at="2021-04-26T21:15:54 IST" name="demo3" finished-at="2021-04-26T21:15:54 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo3 -->
+        <test-method is-config="true" signature="postrequiesit()[pri:0, instance:testNg.Basic2@61386958]" started-at="2021-04-26T21:15:54 IST" name="postrequiesit" finished-at="2021-04-26T21:15:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postrequiesit -->
+      </class> <!-- testNg.Basic2 -->
+      <class name="testNg.Basic3">
+        <test-method signature="Mobileloan()[pri:0, instance:testNg.Basic3@7671cb68]" started-at="2021-04-26T21:15:54 IST" name="Mobileloan" finished-at="2021-04-26T21:15:54 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mobileloan -->
+        <test-method signature="HouseLoan()[pri:0, instance:testNg.Basic3@7671cb68]" started-at="2021-04-26T21:15:54 IST" name="HouseLoan" finished-at="2021-04-26T21:15:54 IST" depends-on-methods="testNg.Basic3.Mobileloan" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HouseLoan -->
+      </class> <!-- testNg.Basic3 -->
+      <class name="testNg.Basic">
+        <test-method is-config="true" signature="Beforemethodevery()[pri:0, instance:testNg.Basic@73ee04c8]" started-at="2021-04-26T21:15:54 IST" name="Beforemethodevery" finished-at="2021-04-26T21:15:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforemethodevery -->
+        <test-method signature="Demo()[pri:0, instance:testNg.Basic@73ee04c8]" started-at="2021-04-26T21:15:54 IST" name="Demo" finished-at="2021-04-26T21:15:54 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method is-config="true" signature="Aftermethodevery()[pri:0, instance:testNg.Basic@73ee04c8]" started-at="2021-04-26T21:15:54 IST" name="Aftermethodevery" finished-at="2021-04-26T21:15:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aftermethodevery -->
+        <test-method is-config="true" signature="Beforemethodevery()[pri:0, instance:testNg.Basic@73ee04c8]" started-at="2021-04-26T21:15:54 IST" name="Beforemethodevery" finished-at="2021-04-26T21:15:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforemethodevery -->
+        <test-method signature="newdemo()[pri:0, instance:testNg.Basic@73ee04c8]" started-at="2021-04-26T21:15:54 IST" name="newdemo" finished-at="2021-04-26T21:15:54 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newdemo -->
+        <test-method is-config="true" signature="Aftermethodevery()[pri:0, instance:testNg.Basic@73ee04c8]" started-at="2021-04-26T21:15:54 IST" name="Aftermethodevery" finished-at="2021-04-26T21:15:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aftermethodevery -->
+      </class> <!-- testNg.Basic -->
+      <class name="testNg.Basic4">
+        <test-method signature="HouseLoanAPI(java.lang.String)[pri:0, instance:testNg.Basic4@49dc7102]" started-at="2021-04-26T21:15:54 IST" name="HouseLoanAPI" finished-at="2021-04-26T21:15:54 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HouseLoanAPI -->
+        <test-method signature="MobileloanAPI(java.lang.String, java.lang.String)[pri:0, instance:testNg.Basic4@49dc7102]" started-at="2021-04-26T21:15:54 IST" name="MobileloanAPI" data-provider="getData" finished-at="2021-04-26T21:15:54 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FirstUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FirstUserPass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileloanAPI -->
+        <test-method signature="MobileloanAPI(java.lang.String, java.lang.String)[pri:0, instance:testNg.Basic4@49dc7102]" started-at="2021-04-26T21:15:54 IST" name="MobileloanAPI" data-provider="getData" finished-at="2021-04-26T21:15:54 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SecondUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SecondUserPass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileloanAPI -->
+        <test-method signature="MobileloanAPI(java.lang.String, java.lang.String)[pri:0, instance:testNg.Basic4@49dc7102]" started-at="2021-04-26T21:15:54 IST" name="MobileloanAPI" data-provider="getData" finished-at="2021-04-26T21:15:54 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ThirdUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ThirdUserPass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileloanAPI -->
+        <test-method signature="carloanAPI()[pri:0, instance:testNg.Basic4@49dc7102]" started-at="2021-04-26T21:15:54 IST" name="carloanAPI" finished-at="2021-04-26T21:15:54 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carloanAPI -->
+      </class> <!-- testNg.Basic4 -->
+    </test> <!-- Test -->
+    <test started-at="2021-04-26T21:15:54 IST" name="Regression" finished-at="2021-04-26T21:15:54 IST" duration-ms="27">
+      <class name="testNg.Basic2">
+        <test-method signature="demo3()[pri:0, instance:testNg.Basic2@31e5415e]" started-at="2021-04-26T21:15:54 IST" name="demo3" finished-at="2021-04-26T21:15:54 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo3 -->
+        <test-method is-config="true" signature="postsuite()[pri:0, instance:testNg.Basic2@61386958]" started-at="2021-04-26T21:15:55 IST" name="postsuite" finished-at="2021-04-26T21:15:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postsuite -->
+      </class> <!-- testNg.Basic2 -->
+      <class name="testNg.Basic">
+        <test-method signature="newdemo()[pri:0, instance:testNg.Basic@34f5090e]" started-at="2021-04-26T21:15:54 IST" name="newdemo" finished-at="2021-04-26T21:15:54 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newdemo -->
+      </class> <!-- testNg.Basic -->
+      <class name="testNg.Basic4">
+        <test-method signature="HouseLoanAPI(java.lang.String)[pri:0, instance:testNg.Basic4@a2431d0]" started-at="2021-04-26T21:15:54 IST" name="HouseLoanAPI" finished-at="2021-04-26T21:15:54 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HouseLoanAPI -->
+        <test-method signature="carloanAPI()[pri:0, instance:testNg.Basic4@a2431d0]" started-at="2021-04-26T21:15:54 IST" name="carloanAPI" finished-at="2021-04-26T21:15:54 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carloanAPI -->
+      </class> <!-- testNg.Basic4 -->
+    </test> <!-- Regression -->
+  </suite> <!-- Suite -->
+</testng-results>
