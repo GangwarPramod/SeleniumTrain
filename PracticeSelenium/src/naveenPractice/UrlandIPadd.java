@@ -1,4 +1,4 @@
-package naveenPractice;
+package src.naveenPractice;
 
 import java.net.MalformedURLException;
 import java.net.URL;

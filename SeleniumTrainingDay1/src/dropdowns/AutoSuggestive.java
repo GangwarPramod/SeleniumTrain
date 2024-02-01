@@ -1,4 +1,4 @@
-package dropdowns;
+package src.dropdowns;
 
 
 
@@ -13,7 +13,7 @@ public class AutoSuggestive {
 	
 	public static void main (String []arg) throws InterruptedException
 	{
-		System.setProperty("webdriver.chrome.driver", "D:\\driver\\chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver", "D:\\driver\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get("http://www.yatra.com/");
 		

@@ -1,5 +1,7 @@
 package testNg;
 
+import org.openqa.selenium.support.ui.Select;
+
 import java.io.FileInputStream;
 
 import java.io.FileOutputStream;
@@ -19,8 +21,8 @@ public class GlobalVariable {
 		System.out.println(prop.getProperty("browser"));
 		FileOutputStream fos= new FileOutputStream("D:\\\\WorkspaceSelenium\\\\Framework\\\\src\\\\data.properties");
 		prop.store(fos, null);
-		
-		
+
+
 		
 	}
 

@@ -13,6 +13,12 @@ public class StringClass {
 		
 		StringBuffer sb1=new StringBuffer("Kumar");
 		StringBuffer sb2=new StringBuffer("Kumar");
+
+		StringBuilder sb3=new StringBuilder("Kumar1");
+		StringBuilder sb4=new StringBuilder("Kumar1");
+
+		System.out.println(sb3==sb4);
+		System.out.println(sb3.equals(sb4));
 		
 		System.out.println(sb1==sb2);
 		System.out.println(sb1.equals(sb2));
